@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margins Chess Club</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="assets/favicon-32x32.png">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--========== BOX ICONS ==========-->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up scrolltop__icon'></i>
+    </a>
+
+
+    <!--=============== HEADER ===============-->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="#" class="nav__logo">
+                    <img src="assets/favicon-32x32.png" alt=""> Margins Chess Club
+                </a>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__toggle-menu"></i>
+                    <i class="ri-close-line nav__toggle-close"></i>
+                </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+
+                    <li>
+                        <a href="#gallery" class="nav__link">Gallery</a>
+                    </li>
+
+                    <li>
+                        <a href="#extras" class="nav__link">Extras</a>
+                    </li>
+
+                    <li>
+                        <a href="#join" class="nav__link">Join Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ================== HOME ======================= -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h4>Welcome To</h4>
+            <h1>Margins Chess Club</h1>
+            <p>Where every move counts!</p>
+
+            <a href="https://chat.whatsapp.com/LnT7QklKzs10BgAI587g40" class="btn">JOIN NOW</a>
+        </div>
+    </section>
+
+    <!-- ================ ABOUT ===================== -->
+    <section class="about" id="about">
+        <div class="center-text">
+            <h2>ABOUT US</h2>
+            <p>Welcome to the Margins Chess Club.
+                Founded in 2024, our club is dedicated to fostering a vibrant chess community. We bring together players
+                of all levels, from beginners
+                to grandmasters, to share our passion for the game. Our mission is to promote strategic thinking and
+                continuous
+                improvement through regular meetings, tournaments and educational events. Whether you're looking to
+                sharpen your skills, enjoy friendly
+                competition, or simply connect with fellow chess enthusiasts, Margins Chess Club offers a welcoming
+                environment for all. Join us and be part of
+                a community where every move counts and every play matters.
+            </p>
+        </div>
+    </section>
+
+    <!-- ================== GALLERY =================== -->
+    <section class="gallery" id="gallery">
+        <div class="middle-text">
+            <h2>GALLERY</h2>
+        </div>
+
+        <div class="full-img" id="fullImg">
+            <img src="assets/chess-5960730_640.jpg" alt="" id="fullImg">
+            <span onclick="closeFullImg()">X</span>
+        </div>
+        <div class="img-gallery">
+            <img src="assets/Gallery1.jpg" alt="" onclick="openFullImg(this.src)">
+            <img src="assets/Gallery4.jpg" alt="" onclick="openFullImg(this.src)">
+            <img src="assets/Gallery3.jpg" alt="" onclick="openFullImg(this.src)">
+            <img src="assets/Gallery2.jpg" alt="" onclick="openFullImg(this.src)">
+            <img src="assets/Gallery6.jpg" alt="" onclick="openFullImg(this.src)">
+            <img src="assets/Gallery5.jpg" alt="" onclick="openFullImg(this.src)">
+            <img src="assets/Gallery8.jpg" alt="" onclick="openFullImg(this.src)">
+            <img src="assets/Gallery7.jpg" alt="" onclick="openFullImg(this.src)">
+        </div>
+    </section>
+
+    <!-- ================== EXTRAS ======================= -->
+    <section class="extras" id="extras">
+        <h1>EXTRAS</h1>
+        <div class="all-extras">
+            <div class="extra">
+                <img src="assets/lessons.jpg" alt="">
+                <div class="extra-info">
+                    <h4 class="extra-title">Lessons</h4>
+                    <p>Check out some lessons here</p>
+                    <a href="#extras" class="extra-btn">CHECK OUT</a>
+                </div>
+            </div>
+            <div class="extra">
+                <img src="assets/tournament.jpg" alt="">
+                <div class="extra-info">
+                    <h4 class="extra-title">Tournaments</h4>
+                    <p>Tournament updates here</p>
+                    <a href="#extras" class="extra-btn">CHECK OUT</a>
+                </div>
+            </div>
+            <div class="extra">
+                <img src="assets/blogs.jpg" alt="">
+                <div class="extra-info">
+                    <h4 class="extra-title">Blogs</h4>
+                    <p>Check out our blog page here</p>
+                    <a href="#extras" class="extra-btn">CHECK OUT</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================== CONTACT ===================== -->
+    <section class="join" id="join">
+        <div class="join-box">
+            <h1>JOIN US</h1>
+            <img src="assets/Chess QR.png" alt="">
+            <p>Scan the code above to join the community or click the link below.</p>
+            <a href="https://chat.whatsapp.com/LnT7QklKzs10BgAI587g40" class="join-btn">Join community!</a>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER =================== -->
+    <section class="footer">
+        <div class="footer-box">
+            <a href="#" class="logo">
+                <img src="assets/favicon-32x32.png" alt=""> Margins Chess Club
+            </a>
+            <div class="footer-box">
+                <h3>Sections</h3>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#extras">Extras</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </div>
+
+            <div class="footer-box">
+                <h3>Meetings</h3>
+                <li>Meeting Times</li>
+                <li>Monday & Wednesday</li>
+                <li>17:00 - 18:30</li>
+                <li>Margins Group - The Octagon</li>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; All Copyright 2024 by Software - Asamoah</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
